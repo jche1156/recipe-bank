@@ -1,3 +1,4 @@
+import Counter from "./counter"; 
 
 export default function Home() {
   return (
@@ -8,15 +9,20 @@ export default function Home() {
           <p className="mt-4 text-zinc-300">Experience a new way of cooking</p>
           <p className="mt-8">
             <span className="text-5xl font-extrabold white">$0 </span>
-            <span className="text-base font-medium text-zinc-100"> Try for free soon!</span>
+            <span className="text-base font-medium text-zinc-100"> Try the demo!</span>
           </p>
+          <a href="recipe">
           <button 
             className="block w-full py-2 mt-8 text-sm font-semibold text-center text-white rounded-md bg-zinc-700 hover:bg-zinc-800" 
             type="button">
-            Yay
+            Let's Go
           </button>
+          </a>
         </div>
       </div>
+
+      <Counter />
+    
     </main>
   );
 }
