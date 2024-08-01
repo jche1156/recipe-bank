@@ -4,7 +4,7 @@ export default function recipe() {
       <div className="flex flex-col rounded-lg shadow-sm divide-y divide-zinc-600 flex-1 basis-1/3 min-w-96 max-w-lg">
         <div className="p-6 bg-zinc-900 rounded-xl">
           <h2 className="text-2xl font-semibold leading-6 text-white">Spaghetti and Meatballs</h2>
-          <p className="mt-4 text-zinc-300">It's so good</p>
+          <p className="mt-4 text-zinc-300">It&apos;s so good</p>
           <p className="mt-8">
             <span className="text-5xl font-extrabold white">$3.45 </span>
             <span className="text-base font-medium text-zinc-100">per serving</span>

@@ -15,7 +15,7 @@ export default function Home() {
           <button 
             className="block w-full py-2 mt-8 text-sm font-semibold text-center text-white rounded-md bg-zinc-700 hover:bg-zinc-800" 
             type="button">
-            Let's Go
+            Let&apos;s Go
           </button>
           </a>
         </div>
